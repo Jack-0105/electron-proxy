@@ -1,6 +1,6 @@
 {
   "name": "electron-proxy",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
@@ -15,9 +15,10 @@
   "license": "ISC",
   "files": [
     "typings/index.d.ts",
-    "Platform/*",
-    "Proxy/**"
+    "dist/*",
+    "dist/**"
   ],
+  "typings": "./typings/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jake0105/electron-proxy.git"

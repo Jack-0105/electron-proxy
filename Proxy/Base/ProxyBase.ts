@@ -1,3 +1,5 @@
+import { IProxy, ICallOption } from "typings";
+
 export default abstract class ProxyBase<T> implements IProxy<T> {
   content: T;
 

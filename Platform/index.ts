@@ -1,3 +1,4 @@
+import { IBusinessProxy } from 'typings';
 import BusinessElectronProxy from '../Proxy/BusinessElectronProxy';
 import BusinessWebProxy from '../Proxy/BusinessWebProxy';
 

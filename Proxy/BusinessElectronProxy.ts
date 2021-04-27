@@ -1,3 +1,4 @@
+import { IBusinessProxy, ICallOption } from 'typings';
 import NativeProxy from './Base/NativeProxy';
 
 export default class BusinessElectronProxy implements IBusinessProxy {

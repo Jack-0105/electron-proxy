@@ -1,3 +1,4 @@
+import { ICallOption } from "typings";
 import ProxyBase from "./ProxyBase";
 
 export default class NativeProxy<T> extends ProxyBase<T>{
